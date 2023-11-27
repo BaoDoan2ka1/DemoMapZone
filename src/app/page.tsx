@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Map from "@/components/map";
 
 export default function Home() {
     return (
         <main className="">
-            123
+            <Map/>
         </main>
     )
 }
